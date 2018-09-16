@@ -1,7 +1,7 @@
-import {Task} from './task';
+import {Task} from './task'
 
 export class Board {
-  id: number;
-  title: string;
-  task: Task[];
+    id: number;
+    title: string;
+    task: Task[];
 }

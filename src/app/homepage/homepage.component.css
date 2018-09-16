@@ -6,9 +6,9 @@
   display: inline-block;
 }
 
-h2 {
+h2 { 
   color: #333;
-  font-weight: 700;
+  font-weight: 700; 
   /*font: 14px "Helvetica Neue",Arial,Helvetica,sans-serif; */
   line-height: 20px;
   font-size: 12pt;
@@ -28,7 +28,7 @@ h2 {
 }
 
 .board .title {
-  font-weight: 700;
+  font-weight: 700; 
   /*font: 14px "Helvetica Neue",Arial,Helvetica,sans-serif; */
   line-height: 20px;
   font-size: 12pt;

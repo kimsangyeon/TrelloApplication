@@ -1,9 +1,9 @@
-import { Injectable } from '@angular/core';
-import { Http, Response } from '@angular/http';
-import { Observable } from 'rxjs/Observable';
-import { Board } from '../model/board';
-import { Task } from '../model/task';
-import { SubTask } from '../model/subtask';
+import {Injectable} from '@angular/core';
+import {Http, Response} from '@angular/http';
+import {Observable} from 'rxjs/Observable';
+import {Board} from '../model/board';
+import {Task} from '../model/task';
+import {SubTask} from '../model/subtask';
 
 @Injectable()
 export class TrelloService {
@@ -34,8 +34,6 @@ export class TrelloService {
     this.Boards.push(board);
 
     return board;
-
   }
-
 }
 

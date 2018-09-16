@@ -4,5 +4,5 @@ export class Task {
   id: number;
   title: string;
   subtask: SubTask[];
-  taskheaderId: sring;
+  taskheaderId: string;
 }

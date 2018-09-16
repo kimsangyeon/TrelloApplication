@@ -3,7 +3,7 @@ import {Router} from '@angular/router';
 import {Board} from '../model/board';
 import {SubTask} from '../model/subtask';
 import {Task} from '../model/task';
-import {TrelloService} from '../services/trello.service';
+import {TrelloService} from '../service/trello.service';
 
 @Component({
   selector: 'app-homepage',
@@ -11,7 +11,7 @@ import {TrelloService} from '../services/trello.service';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent implements OnInit {
-  boards: Board[]= Array();
+  boards: Board[]= new Array();
   errorMessage: string;
 
   constructor(private _trelloService:TrelloService,private _router: Router) { }
